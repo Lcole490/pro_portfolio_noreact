@@ -1,15 +1,16 @@
-.App {
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* .App {
     text-align: center;
   }
-  
-  .logo{
-      color: white;
-      font-size: 36px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
+   */
 
-  }
-  
+
   nav{
     display: flex;
     justify-content: space-around;
@@ -20,6 +21,17 @@
     color: white;
     font-family: 'Poppins' ;
   }
+
+  
+  .logo{
+      color: white;
+      font-size: 36px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+     
+
+  }
+  
   
   .nav-links{
     width: 50%;
@@ -29,6 +41,7 @@
     list-style: none;
     text-decoration: none;
     font-size: 24px;
+    
   }
 
   .nav-links a{
@@ -138,3 +151,48 @@
   transform: translateX(0%);
 
 }
+
+
+
+/* End of burger line settings */
+
+
+@media screen and (max-width: 1024px){
+    .nav-links{
+      width: 60%;
+     
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px){
+    body{
+      overflow-x: hidden;
+    }
+    .nav-links{
+      position: absolute;
+      right: 0px;
+      height: 90vh;
+      top: 10vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(28, 43, 59, .97);
+      width: 50%;
+     transform: translateX(100%);
+     transition: transform 0.5s ease-in;
+    }
+  
+    .nav-links li{
+      opacity: 0;
+    }
+  
+    .burger{
+      display: block;
+    }
+  }
+  
+  .nav-active{
+    transform: translateX(0%);
+  
+  }
