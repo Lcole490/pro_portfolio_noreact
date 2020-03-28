@@ -19,10 +19,11 @@
     max-height: 10vh;
     background-color: rgb(28, 43, 59);
     color: white;
-    font-family: 'Poppins' ;
+    /* font-family: 'Poppins' ; */
+    font-family: 'Michroma', sans-serif;
   }
 
-  
+
   .logo{
       color: white;
       font-size: 36px;
@@ -49,7 +50,7 @@
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 20px;
   }
 
 
@@ -93,6 +94,7 @@
   height: 3px;
   background-color: white;
   margin: 7px;
+  transition: all 0.3s ease;
 }
 .line2{
 
@@ -100,6 +102,7 @@
   height: 3px;
   background-color: white;
   margin: 7px;
+  transition: all 0.3s ease;
 }
 .line3{
 
@@ -107,6 +110,7 @@
   height: 3px;
   background-color: white;
   margin: 7px;
+  transition: all 0.3s ease;
 }
 
 /* End of burger line settings */
@@ -123,12 +127,13 @@
 @media screen and (max-width: 768px){
   body{
     overflow-x: hidden;
+    overflow-y: hidden;
   }
   .nav-links{
     position: absolute;
     right: 0px;
-    height: 90vh;
-    top: 10vh;
+    height: 100vh;
+    top: 6vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,45 +159,28 @@
 
 
 
-/* End of burger line settings */
 
 
-@media screen and (max-width: 1024px){
-    .nav-links{
-      width: 60%;
-     
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
     }
-  }
-  
-  
-  @media screen and (max-width: 768px){
-    body{
-      overflow-x: hidden;
+    to {
+        opacity: 1;
+        transform: translateX(0px);
     }
-    .nav-links{
-      position: absolute;
-      right: 0px;
-      height: 90vh;
-      top: 10vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background-color: rgb(28, 43, 59, .97);
-      width: 50%;
-     transform: translateX(100%);
-     transition: transform 0.5s ease-in;
-    }
-  
-    .nav-links li{
-      opacity: 0;
-    }
-  
-    .burger{
-      display: block;
-    }
-  }
-  
-  .nav-active{
-    transform: translateX(0%);
-  
-  }
+}
+
+.navX .line1{
+    transform: rotate(-45deg) translate(-5px, 8px);
+}
+
+.navX .line2{
+   opacity: 0;
+}
+
+.navX .line3{
+     transform: rotate(45deg) translate(-5px, -10px);
+     width: 35px;
+}
