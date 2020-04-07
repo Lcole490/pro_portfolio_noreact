@@ -115,6 +115,7 @@ height: 65px;
 left: -40px;
 top: 0px;
 transform: skewX(-30deg);
+opacity: 0.7;
   }
 
 /* Settings for burger menu lines, width and spacing */
