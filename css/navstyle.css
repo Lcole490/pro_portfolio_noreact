@@ -201,6 +201,16 @@ opacity: 0.7;
     background: transparent;
   }
 
+  li:hover {
+   
+    background-color: rgb(18, 148, 187);
+    background: rgb(18, 148, 187);
+    transform: skewX(-30deg);
+    width: 100%;
+    
+  }
+
+
   .burger{
     display: block;
     z-index: 3;
