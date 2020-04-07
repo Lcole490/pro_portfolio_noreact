@@ -10,7 +10,9 @@
     text-align: center;
   }
    */
-
+a{
+  background: transparent;
+}
 
   nav{
     display: flex;
@@ -18,16 +20,12 @@
     align-items: center;
     /* min-height: 15vh; */
     max-height: 10vh;
-    /* background-color: rgb(28, 43, 59); */
-    background-color: transparent;
+    background: transparent;
     color: white;
     /* font-family: 'Poppins' ; */
     font-family: 'Michroma', sans-serif;  
    
    width: 100%;
-
- 
-   
   }
 
 
@@ -42,9 +40,6 @@
       left: 0px;
       top: 0px;
       padding: 2px 185px 2px 85px;
-      /* transform: skewX(-30deg); */
-      
-
 
   }
   
@@ -57,8 +52,6 @@
     list-style: none;
     text-decoration: none;
     font-size: 24px;
-    
-   
   }
 
   .nav-links a{
@@ -75,9 +68,6 @@
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
-   
-
-   
   }
   
   li {
@@ -89,20 +79,30 @@
     color: white;
     text-align: center;
     padding: 14px 26px;
-    text-decoration: none;
- 
-  
+    text-decoration: none; 
   }
   
   /* Change the link color to #111 (black) on hover */
   li:hover {
    
+    background-color: rgb(19, 100, 53, .75);
     background: rgb(19, 100, 53, .75);
     transform: skewX(-30deg);
     width: 100%;
     
   }
 
+
+  .circletop{
+    
+position: absolute;
+width: 410px;
+height: 500px;
+left: -84px;
+top: 200px;
+
+background:transparent;
+  }
 
 /* Settings for burger menu lines, width and spacing */
 .burger{
@@ -164,6 +164,19 @@
     width: 50%;
    transform: translateX(100%);
    transition: transform 0.5s ease-in;
+  }
+
+  .logo{
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    z-index: 10;
+    background-color:transparent;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    padding: 2px 185px 2px 85px;
   }
 
   .nav-links li{
