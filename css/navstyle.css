@@ -1,19 +1,33 @@
+
+/* ********************* S T Y L I N G _ _ F O R _ _ N A V B A R**************** */
+
+
+
+/* Settings for entire page */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     background: #2F303A;
 }
+/* ------------------------------------------------------------------------------- */
 
+
+/* Setting for Logo Text */
 h3{
   background: transparent;
 }
+
+/* --------------------------------------------------------------------------------- */
+
 
 
 /* .App {
     text-align: center;
   }
    */
+
+ 
 a{
   background: transparent;
 }
@@ -96,8 +110,11 @@ a{
     
   }
 
+/* --------------------------------------------------------------------- */
 
-  .circletop{
+
+
+  /* .circletop{
     
 position: absolute;
 width: 410px;
@@ -106,8 +123,10 @@ left: -84px;
 top: 200px;
 
 background:transparent;
-  }
+  } */
 
+
+/* Rectangle accent at Top of page for Logo */
   .rectop{
 position: absolute;
 width: 800px;
@@ -117,6 +136,12 @@ top: 0px;
 transform: skewX(-30deg);
 opacity: 0.7;
   }
+
+
+  /* --------------------------------------------------------------- */
+
+
+
 
 /* Settings for burger menu lines, width and spacing */
 .burger{
@@ -152,6 +177,12 @@ opacity: 0.7;
 
 /* End of burger line settings */
 
+/* --------------------------------------------------------------------- */
+
+
+
+
+/* Responsive Settings for Navbar */
 
 @media screen and (max-width: 1024px){
   .nav-links{
@@ -182,7 +213,7 @@ opacity: 0.7;
    transition: transform 0.5s ease-in;
   
   }
-
+/* Change size of logo to fit cell phone screen in responsive mode */
   .logo{
     color: white;
     font-size: 14px;
@@ -225,7 +256,7 @@ opacity: 0.7;
 
 
 
-
+/* Handles animation of responsive menu and of burger to " x " functionality */
 
 @keyframes navLinkFade{
     from{
