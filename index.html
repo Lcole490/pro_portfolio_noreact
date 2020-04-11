@@ -1,59 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,  user-scalable=no">
     <title>Lavar Cole Portfolio</title>
-    <link rel= "stylesheet" href = "./css/navstyle.css">
+    <link rel="stylesheet" href="./css/navstyle.css">
+    <link rel="stylesheet" href="./css/homestyle.css">
     <link href="https://fonts.googleapis.com/css?family=Michroma&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Nav tag for navigation bar and links-->
     <nav>
-        
-        <div class= "logo">
-          <h3>Lavar Cole</h3>
-          </div>
-          <ul class= "nav-links">
-        
-              <li><a href ="#">Home</a></li>
+
+        <div class="logo">
+            <h3>Lavar Cole</h3>
+        </div>
+        <ul class="nav-links">
+
+            <li><a href="#">Home</a></li>
+
+
+            <li><a href="#">About</a></li>
+
+
+            <li><a href="#">Projects</a></li>
+
+
+            <li><a href="#">Resume</a></li>
+
+
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+        <!-- Div class for burger menu that appears in responsive mode -->
+        <div class="burger">
+            <!-- Each line of burger has it's own div -->
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
+        <svg height="100" width="100" class="circletop">
+            <circle cx="200" cy="150" r="145" stroke="rgba(196, 196, 196, 0.04)" stroke-width="3"
+                fill="rgba(196, 196, 196, 0.02)" />
+        </svg>
+
+
+        <svg height="100" width="1200" class="rectop">
+            <rect width="1150" height="100"
+                style="fill: rgba(27, 59, 108, 0.33);stroke-width:3;stroke:rgb(18, 148, 187)" />
+        </svg>
+    </nav>
+
+    <div class="maincontainer">
+        <div class= "welcomecontainer">
             
+            <h2 class= "herogreeting">Hello, My Name is</h2>
+            <h1 class= "heroname">Lavar Cole</h1>
             
-              <li><a href ="#">About</a></li>
+            <h1 class= "heroname">I am a</h1>
+            <h1 class = "underline">________________________________________________</h1>
+
+            <br><br>
+            <p class = "herostatement">Welcome to my professional portfolio. I am a software engineer based in Atlanta, GA. 
+                Feel free to explore this site and find out more about me and what I can contribute to the technical world. 
+
+                
+            </p>
             
-           
-              <li><a href ="#">Projects</a></li>
+        </div>
+        <
+
+    </div>
 
 
-              <li><a href ="#">Resume</a></li>
-            
-          
-              <li><a href ="#">Contact</a></li>   
-   
-          </ul>
-          <!-- Div class for burger menu that appears in responsive mode -->
-          <div class= "burger">
-              <!-- Each line of burger has it's own div -->
-            <div class= "line1"></div>
-            <div class= "line2"></div>
-            <div class= "line3"></div>
-          </div>
-         
-       <svg height="100" width="100"class= "circletop" >
-        <circle cx="200" cy="150" r="145" stroke="rgba(196, 196, 196, 0.04)" stroke-width="3" fill="rgba(196, 196, 196, 0.02)" />
-      </svg>    
 
-
-      <svg height = "100" width ="1200" class= "rectop">
-        <rect width="1150" height="100" style="fill: rgba(27, 59, 108, 0.33);stroke-width:3;stroke:rgb(18, 148, 187)" />
-      </svg>
-      </nav>
-
-     
-
-
-      
-      <script src = "./js/nav.js"></script> <!-- JS file for Navbar behaviors-->
+    <script src="./js/nav.js"></script> <!-- JS file for Navbar behaviors-->
 </body>
+
 </html>
