@@ -31,3 +31,36 @@
      font-family: 'Michroma', sans-serif;
      letter-spacing: 3px;
  }
+
+
+
+ @media screen and (max-width: 768px){
+
+    .welcomecontainer{
+    
+        position: relative;
+        width: 350px;
+        height: 500px;
+        
+        left: 20px;
+        top: 50px;
+        right: 20px;
+        color: rgb(51, 122, 139);
+        background: transparent;
+     }
+    
+    
+     .herogreeting, .herostatement, .underline{
+         font-size: 18px;
+         font-family: 'Michroma', sans-serif;
+         background: transparent;
+         overflow-wrap: normal;
+         
+     }
+     .heroname{
+         font-size: 30px;
+         font-family: 'Michroma', sans-serif;
+         letter-spacing: 3px;
+         background: transparent;
+     }
+ }
