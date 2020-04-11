@@ -1,0 +1,33 @@
+.circletop{
+    
+    position: absolute;
+    width: 410px;
+    height: 500px;
+    left: -84px;
+    top: 200px;
+    
+    background:transparent;
+ }
+
+
+ .welcomecontainer{
+    
+    position: relative;
+    width: 700px;
+    height: 500px;
+    
+    left: 300px;
+    top: 100px;
+    color: rgb(51, 122, 139);
+ }
+
+
+ .herogreeting, .herostatement{
+     font-size: 24px;
+     font-family: 'Michroma', sans-serif;
+ }
+ .heroname{
+     font-size: 70px;
+     font-family: 'Michroma', sans-serif;
+     letter-spacing: 3px;
+ }
