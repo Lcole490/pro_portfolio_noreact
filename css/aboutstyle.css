@@ -1,0 +1,20 @@
+
+body{
+    background-image: url("https://wallpaperaccess.com/full/112187.jpg");
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+.circlebottom{
+
+position: absolute;
+width: 620px;
+height: 596px;
+/* left: 996px; */
+left: 80%;
+top: 583px;
+
+background:transparent;
+
+ }
