@@ -13,7 +13,7 @@
  .welcomecontainer{
     
     position: relative;
-    width: 700px;
+    width: 1000px;
     height: 500px;
     
     left: 300px;
@@ -30,21 +30,162 @@
      font-size: 70px;
      font-family: 'Michroma', sans-serif;
      letter-spacing: 3px;
+     z-index: 2;
+    
  }
+
+
+
+
+/*Wrapper*/
+.wrapper{
+   margin: 100px auto;
+   position: relative;
+   width: 100%;
+}
+
+/*Vertical Sliding*/
+.slidingVertical{
+   display: inline;
+   text-indent: 8px;
+   background: transparent;
+
+}
+.slidingVertical span{
+   animation: topToBottom 15s linear  0s forwards;
+   -ms-animation: topToBottom 15s linear  0s forwards;
+   -webkit-animation: topToBottom 15s linear  0s forwards;
+
+   color: #809cad;
+   opacity: 0;
+   overflow: hidden;
+   position: absolute;
+}
+.slidingVertical span:nth-child(2){
+   animation-delay: 2.5s;
+   -ms-animation-delay: 2.5s;
+   -webkit-animation-delay: 2.5s;
+}
+.slidingVertical span:nth-child(3){
+   animation-delay: 5s;
+   -ms-animation-delay: 5s;
+   -webkit-animation-delay: 5s;
+}
+.slidingVertical span:nth-child(4){
+   animation-delay: 7.5s;
+   -ms-animation-delay: 7.5s;
+   -webkit-animation-delay: 7.5s;
+}
+.slidingVertical span:nth-child(5){
+   animation-delay: 10s;
+   -ms-animation-delay: 10s;
+   -webkit-animation-delay: 10s;
+}
+.slidingVertical span:nth-child(6){
+   animation-delay: 12.5s;
+   -ms-animation-delay: 12.5s;
+   -webkit-animation-delay: 12.5s;
+}
+.slidingVertical span:nth-child(7){
+   /* animation-delay: 15s;
+   -ms-animation-delay: 15s;
+   -webkit-animation-delay: 15s;
+   animation-fill-mode: forwards;
+   -ms-animation-fillmode: forwards;
+   -webkit-animation-fill-mode: forwards; */
+
+   animation: last 15s linear  12.5s forwards;
+   -ms-animation: last 15s linear  12.5s forwards;
+   -webkit-animation: last 15s linear  12.5s forwards;
+
+   color: #809cad;
+   opacity: 0;
+   overflow: hidden;
+   position: absolute;
+}
+
+/* *****************T E X T _ _ R O T A T O R******************** */
+
+
+
+/*topToBottom Animation*/
+@-moz-keyframes topToBottom{
+   0% { opacity: 0; }
+   5% { opacity: 0; -moz-transform: translateY(-10px); }
+   10% { opacity: 1; -moz-transform: translateY(0px); }
+   25% { opacity: 0; -moz-transform: translateY(0px); }
+   30% { opacity: 0; -moz-transform: translateY(50px); }
+   80% { opacity: 0; }
+   100% { opacity: 0; }
+}
+@-webkit-keyframes topToBottom{
+   0% { opacity: 0; }
+   5% { opacity: 0; -webkit-transform: translateY(-10px); }
+   10% { opacity: 1; -webkit-transform: translateY(0px); }
+   25% { opacity: 0; -webkit-transform: translateY(0px); }
+   30% { opacity: 0; -webkit-transform: translateY(50px); }
+   80% { opacity: 0; }
+   100% { opacity: 0; }
+}
+@-ms-keyframes topToBottom{
+   0% { opacity: 0; }
+   5% { opacity: 0; -ms-transform: translateY(-10px); }
+   10% { opacity: 1; -ms-transform: translateY(0px); }
+   25% { opacity: 0; -ms-transform: translateY(0px); }
+   30% { opacity: 0; -ms-transform: translateY(50px); }
+   80% { opacity: 0; }
+   100% { opacity: 0; }
+}
+
+
+
+@-moz-keyframes last{
+    0% {opacity: 0;}
+    95%{opacity: .2;}
+    100% {opacity: 1;}
+
+}
+
+@-webkit-keyframes last{
+    0% {opacity: 0;}
+    65%{opacity: .2}
+    75%{opacity: .5}
+    75%{opacity: .75}
+    95%{opacity: .9;}
+    100% {opacity: 1;}
+
+}
+
+@-ms-keyframes last{
+    0% {opacity: 0;}
+    95%{opacity: .2;}
+    100% {opacity: 1;}
+
+}
+
+
+/* *****************E N D _ _ O F _ _ T E X T _ _ R O T A T O R*************** */
+
+
 
 
 
  @media screen and (max-width: 768px){
 
+    .circletop{
+        z-index: 8;
+    }
     .welcomecontainer{
     
         position: relative;
-        width: 350px;
-        height: 500px;
+        /* width: 350px;
+        height: 500px; */
+        width: 90%;
+        height: 100%;
         
         left: 20px;
         top: 50px;
-        right: 20px;
+        right: -50px;
         color: rgb(51, 122, 139);
         background: transparent;
      }
@@ -55,6 +196,7 @@
          font-family: 'Michroma', sans-serif;
          background: transparent;
          overflow-wrap: normal;
+         
          
      }
      .heroname{
