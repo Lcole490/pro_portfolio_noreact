@@ -201,6 +201,9 @@ opacity: 0.7;
   nav{
     opacity: 1;
   }
+  h3{
+    float: left;
+  }
   .nav-links{
     position: absolute;
     right: 0px;
