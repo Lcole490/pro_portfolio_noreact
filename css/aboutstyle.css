@@ -1,8 +1,11 @@
-
+*{
+    background: transparent;
+}
 body{
     background-image: url("https://wallpaperaccess.com/full/112187.jpg");
     overflow-x: hidden;
     overflow-y: hidden;
+
 
 }
 
@@ -18,3 +21,20 @@ top: 583px;
 background:transparent;
 
  }
+
+
+ .aboutcontainer{
+    
+    position: relative;
+    width: 800px;
+    height: 500px;
+    
+    left: 5%;
+    top: 100px;
+    color: rgb(51, 122, 139);
+ }
+
+ .bio{
+    font-size: 24px;
+    font-family: 'Michroma', sans-serif;
+}
