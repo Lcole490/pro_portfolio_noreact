@@ -2,7 +2,9 @@
     background: transparent;
 }
 body{
-    background-image: url("https://wallpaperaccess.com/full/112187.jpg");
+    /* background-image: url("https://wallpaperaccess.com/full/112187.jpg"); */
+    background: #2F303A;
+
     
     overflow-x: hidden;
     overflow-y: hidden;
