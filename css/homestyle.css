@@ -25,6 +25,7 @@
  .herogreeting, .herostatement{
      font-size: 24px;
      font-family: 'Michroma', sans-serif;
+     letter-spacing: 3px;
  }
  .heroname{
      font-size: 70px;
