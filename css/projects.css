@@ -1,3 +1,7 @@
+p {
+    font-family: 'Michroma', sans-serif;
+}
+
 /* Three columns side by side */
 .column {
     float: left;
