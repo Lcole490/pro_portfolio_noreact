@@ -46,3 +46,21 @@ background:transparent;
     font-size: 24px;
     font-family: 'Michroma', sans-serif;
 }
+
+.column {
+    float: left;
+    /* width: 80%; */
+    /* margin-bottom: 16px;
+    padding: 0 0px; */
+  }
+
+
+@media screen and (max-width: 768px){
+
+
+    .aboutcontainer{
+        width: 90%;
+        height: auto;
+        overflow-wrap: normal;
+    }
+}
