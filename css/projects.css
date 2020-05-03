@@ -1,8 +1,19 @@
 
 .projectscontainer{
     padding-top: 5%;
+    color: grey;
 }
 
+h2{
+    font-family: 'Michroma', sans-serif;
+    font-size: 40px;
+}
+
+.detail{
+    font-family: 'Michroma', sans-serif;
+    font-size: 24px;
+    
+}
 
 p {
     font-family: 'Michroma', sans-serif;
@@ -55,6 +66,8 @@ p {
     text-align: center;
     cursor: pointer;
     width: 50%;
+    font-size: 18px;
+    letter-spacing: 2px;
   }
   
   .button:hover {
