@@ -61,6 +61,7 @@
    text-indent: 8px;
    background: transparent;
    width: 100%;
+
    
 
 }
@@ -219,5 +220,10 @@
          font-family: 'Michroma', sans-serif;
          letter-spacing: 3px;
          background: transparent;
+     }
+
+     .slidingVertical{
+        position: relative;
+      right: 70px;
      }
  }
