@@ -126,6 +126,7 @@ body {
           transform: translate3d(0, 0, 0);
   -webkit-transition: .4s ease 1.8s;
   transition: .4s ease 1.8s;
+  font-size: 14px;
 }
 .timeline .swiper-pagination {
   right: 15% !important;
