@@ -4,7 +4,8 @@
     bottom: 0;
     width: 100%;
     background-color: transparent;
-    color: grey;
+    color: black;
+    font-weight: bolder;
     text-align: center;
     font-size: 24px;
     z-index: 1;
