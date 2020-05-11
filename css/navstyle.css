@@ -196,7 +196,7 @@ opacity: 0.7;
 @media screen and (max-width: 768px){
   body{
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
   }
   nav{
     opacity: 1;
