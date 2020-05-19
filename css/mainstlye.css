@@ -1,0 +1,571 @@
+
+
+/* ------------------------------ G L O B A L _ _ S T Y L E S--------------------------------- */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    /* Conversion that makes each rem = to 10 px */
+    font-size: 62.5%;
+  }
+  
+  body{
+    font-family: 'Michroma', sans-serif;
+  }
+  
+  
+  h1 {
+    font-size: 2.6rem;
+  }
+  
+  li,
+  button,
+  label,
+  input,
+  p {
+    font-size: 2rem;
+  }
+  
+  
+  h2{
+    font-size: 4.8rem;
+  }
+  
+  h3{
+    font-size: 3rem;
+  }
+  
+  h4,
+  h5{
+    font-size: 2.8rem;
+  }
+  
+  h6{
+    font-size: 2rem;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  button{
+    padding: 2rem 6rem;
+    background: rgb(101, 103, 128);
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out;
+  }
+  
+  button:hover{
+    background: rgb(47, 48, 58);
+    
+  }
+
+
+
+
+  
+ 
+
+  /* -----------------------N A V _ _ S E C T I O N _ _ W I T H _ _ H E R O ------------------------------------ */
+  
+  
+  .main-head {
+    background: rgb(47, 48, 58);
+    color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 7
+  }
+  
+  
+  nav{
+    min-height: 10vh;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  
+  li:hover{
+      text-decoration: underline rgb(18, 148, 187);
+    
+  }
+  
+  #logo{
+     flex: 1 1 40rem;
+     font-family: 'Pattaya', sans-serif;
+     font-weight: normal;
+     font-size: 4rem;
+     letter-spacing: .5rem;
+  }
+  
+  
+  .hero{
+    background: linear-gradient(rgb(37, 35, 35, 0.5),transparent),url("programmer.jpg");
+  
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  
+  }
+  
+  .hero h3{
+    padding: 5rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Settings for burger menu lines, width and spacing */
+  .burger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  
+  .line1{
+  
+    width: 35px;
+    height: 3px;
+    background-color: white;
+    margin: 7px;
+    transition: all 0.3s ease;
+  }
+  .line2{
+  
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 7px;
+    transition: all 0.3s ease;
+  }
+  .line3{
+  
+    width: 15px;
+    height: 3px;
+    background-color: white;
+    margin: 7px;
+    transition: all 0.3s ease;
+  }
+  
+  /* End of burger line settings */
+  
+  /* --------------------------------------------------------------------- -------------------------------------*/
+  
+  
+  
+  
+  
+  
+  /* ---------------------- A B O U T _ _ P A G E _ _ S E C T I O N------------------------------------------- */
+  
+
+  
+  #about{
+    min-height: 100vh;
+   background: linear-gradient(rgba(0, 0, 0, 0.95),transparent),url("https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  
+  .about-head{
+    width: 90%;
+    margin: auto;
+  }
+  
+  .about-head h2{
+    padding: 1rem 0rem;
+    text-decoration: underline;
+  }
+  
+  .about-head h3{
+    padding: 4rem 0rem;
+    /* background: linear-gradient(rgb(100, 91, 91), rgb(6, 126, 196));
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* -------------------------P R O J E C T S _ _ S E C T I O N  --------------------------------------------------- */
+
+
+
+  #projects{
+    min-height: 70vh;
+  }
+  
+  .projects-head{
+    background: #343c44;
+    padding: 3rem;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+  
+  }
+  
+  
+  .projects-head h3{
+    padding: 1rem;
+  }
+  
+  
+  .cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 60vh;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .card{
+    position: relative;
+  
+    flex: 1 1 30rem;
+    min-height: 40vh;
+    margin: 2rem 5rem;
+    background: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+     background-size: cover;
+    background-position: center;
+    transition: background 1s ease-in-out;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1), 0px 20px 20px rgba(0, 20, 20, 0.1);
+    align-items: center;
+    text-align: center;
+   
+  }
+  
+  
+  
+  .cards img{
+    height: 100px;
+  }
+  
+  
+  
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  }
+  
+  .card:hover .overlay {
+    background: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+  }
+  
+  
+  
+  .front-text{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(112, 128, 144, 0.7);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .front-text img{
+    height: 10%;
+    width: 10%;
+    ;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* --------------------------------------------------C O N T A C T _ _ S E C T I O N ------------------------------------------- */
+  
+  
+  #contact{
+    min-height: 100vh;
+    background: linear-gradient(rgb(37, 35, 35, 0.5),transparent), url("https://images.pexels.com/photos/326576/pexels-photo-326576.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .form-wrapper{
+    background: rgba(47, 48, 58, 0.5);
+    width: 60%;
+    color: white;
+    border-radius: 20px;
+  
+  }
+  
+  
+  .form-head{
+    text-align: center;
+    padding: 4rem;
+  
+  }
+  
+  .name-form,
+  .email-form,
+  .message-form{
+  
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  
+  .form-wrapper button{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  
+  
+  
+  
+  
+/* --------------------------------------------F O O T E R _ _ S E C T I O N------------------------------------------- */
+  
+  
+  footer{
+    color: white;
+    background:  rgba(47, 48, 58, 0.95);
+  }
+  
+  .footer-wrapper{
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+  }
+  
+  footer h5{
+    flex: 1 1 40rem;
+  }
+  footer ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-wrapper img{
+    height: 40%;
+    width: 40%;
+  }
+  
+  
+  
+  
+  /* -------------------------------------M E D I A _ _ Q U E R I E S_ _ ---------------------------------------------- */
+
+
+
+  
+  @media screen and (max-width: 768px){
+    
+    html{
+      font-size: 45%;
+    }
+    nav{
+      text-align: center;
+    }
+  
+  
+  .main-head{
+    position: sticky;
+    top: 0px;
+  }
+  
+  
+  
+  
+  
+  body{
+     overflow-x: hidden;
+     /* overflow-y: hidden; */
+  }
+  
+  
+    nav{
+      opacity: 1;
+  
+      
+    }
+    h3{
+      float: left;
+    }
+    .nav-links{
+      position: absolute;
+      right: 0px;
+      height: 92vh;
+      top: 10vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: rgba(47, 48, 58,.9);
+      opacity: 1;
+      width: 50%;
+     transform: translateX(100%);
+     transition: transform 0.5s ease-in;
+     z-index: 15;
+    
+    }
+  
+  
+   .logo{
+      color: white;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      z-index: 10;
+      background-color:transparent;
+      position: relative;
+      left: 0px;
+      top: 0px;
+      padding: 2px 105px 2px 85px;
+      opacity: 1;
+    }
+  
+    .nav-links li{
+      opacity: 0;
+      background: transparent;
+    }
+  
+    .burger{
+      display: block;
+      z-index: 3;
+      background: transparent;
+    }
+  }
+  
+  .nav-active{
+    transform: translateX(0%);
+  
+  }
+  
+  
+  
+  
+  /* Handles animation of responsive menu and of burger to " x " functionality */
+  
+  @keyframes navLinkFade{
+      from{
+          opacity: 0;
+          transform: translateX(50px);
+      }
+      to {
+          opacity: 1;
+          transform: translateX(0px);
+      }
+  }
+  
+  .navX .line1{
+      transform: rotate(-45deg) translate(-5px, 8px);
+  }
+  
+  .navX .line2{
+     opacity: 0;
+  }
+  
+  .navX .line3{
+       transform: rotate(45deg) translate(-5px, -10px);
+       width: 35px;
+  }
+  
+  
+  
+  
+  
+  
+    #logo{
+      padding: 1rem;
+    }
+   
+   .card{
+     width: 90%;
+   }
+  
+  .form-wrapper{
+    width: 100%;
+  }
+   footer{
+     text-align: center;
+   }
+  
+   footer h5{
+     padding-bottom: 1rem;
+   }
+  
