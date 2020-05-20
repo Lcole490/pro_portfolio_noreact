@@ -12,7 +12,7 @@ var timelineSwiper = new Swiper ('.timeline .swiper-container', {
     prevButton: '.swiper-button-prev',
     breakpoints: {
       768: {
-        direction: 'horizontal',
+        direction: 'vertical',
       }
     }
   });
