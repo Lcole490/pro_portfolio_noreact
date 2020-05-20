@@ -613,7 +613,7 @@
               transform: rotate(90deg) translate(3px, 10px);
     }
   }
-  @media screen and (max-width: 1024px) {
+  /* @media screen and (max-width: 1024px) {
     .timeline .swiper-slide::after {
       right: -20%;
       bottom: -12%;
@@ -627,7 +627,7 @@
   }
   
   
-  
+   */
   
   
  
