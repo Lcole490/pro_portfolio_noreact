@@ -558,7 +558,7 @@
     -webkit-transform: translateX(3px);
             transform: translateX(3px);
   }
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
     .timeline .swiper-slide::after {
       right: -30%;
       bottom: -8%;
@@ -573,17 +573,17 @@
               transform: translateY(-50%);
       width: 310px;
       /* font-size: 11px; */
-      font-size: 20%;
+      font-size: 40%;
       text-align: right;
     }
     .timeline .swiper-slide .timeline-year {
       margin-bottom: 0;
       /* font-size: 32px; */
-      font-size: 20%;
+      font-size: 40%;
     }
     .timeline .swiper-slide .timeline-title {
       /* font-size: 46px; */
-      font-size: 20%;
+      font-size: 40%;
       margin: 0;
     }
     .timeline .swiper-pagination {
@@ -613,7 +613,7 @@
               transform: rotate(90deg) translate(3px, 10px);
     }
   }
-  @media screen and (min-width: 1024px) {
+  @media screen and (max-width: 1024px) {
     .timeline .swiper-slide::after {
       right: -20%;
       bottom: -12%;
