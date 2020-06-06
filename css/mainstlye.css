@@ -309,6 +309,9 @@
   }
   
   
+  .overlay-text p{
+      font-weight: bolder;
+  }
   
   .overlay{
     position: absolute;
